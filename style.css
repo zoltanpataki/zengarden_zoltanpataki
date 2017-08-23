@@ -1,0 +1,102 @@
+html{
+	margin:0;
+	padding:0
+}
+
+body{
+	font: 90% 'Courier New';
+	line-height: 1.88889;
+	color:white;
+	background: url(https://www.rouvre.com/files/image_729_image_fr.jpg), url(https://static01.nyt.com/images/2013/01/23/sports/TAIHO-obit/TAIHO-obit-jumbo.jpg);
+	background-position: top center, bottom right;
+	/* background-image: linear-gradient( rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(https://www.rouvre.com/files/image_729_image_fr.jpg); */
+	background-repeat: no-repeat, no-repeat;
+	background-color: black;
+	margin-left:30px;
+	padding:0;
+}
+
+
+p{
+	margin-top: 0;
+	text-align: justify;
+	width: 90%
+}
+
+header h1{
+	margin-top: 10px;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 13px;
+	color:#e5b106;
+}
+
+header h2{
+	text-align: center;
+	position: relative;
+	left:-120px;
+	font-size: 60px
+}
+
+h3{
+	font: italic bold 1.4em 'Courier New', sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 10px; 
+	color: #e5b106;
+}
+
+a:link{
+	font-weight: bold;
+	color:hotpink;
+	text-decoration: none;
+}
+
+a:hover{
+	font-weight: bold;
+	color:cyan;
+	text-decoration: underline;
+}
+
+a:visited{
+	font-weight: bold;
+	color:#0d7217;
+	text-decoration: underline;
+}
+
+footer{
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	word-spacing: 150px;
+}
+
+#zen-intro h1{
+	min-width: 470px;
+	width: 20%;
+}
+
+#zen-summary{
+	clear: both; 
+	margin: 20px 50px 20px 10px; 
+	width: 200px; 
+	float: left;
+	color:#8299e5;
+	font-size:20px;
+	display:table;
+}
+
+#zen-preamble{
+	clear:right;
+	padding: 0px 100px 0 10px 
+}
+
+#zen-supporting{
+	clear:right;
+}
+
+#design-selection ul{
+	list-style-type: katakana;
+	margin-left: 50px;
+	list-style-position: outside;
+}
